@@ -1,5 +1,6 @@
 # grav-ubuntu-setup
 Helps to prepare devserver
+ubuntu 18 x64 server installed, user account is _user_
 
 on the server console 
 ```ifconfig```
@@ -13,7 +14,7 @@ update and reboot
 
 
 ```apt install mc htop nginx php-fpm php-mbstring php-gd php-curl php-xml php-zip```  
-```cd /var/www/html; wget https://getgrav.org/download/skeletons/onepage-site/2.0.0 -O file.zip; unzip ./file.zip; rm ./file.zip; cd ./g*; mv ./{.,}* ..; cd ..; rm -rf ./grav*; mv ./index.nginx-debian.html ./index.nginx-debian.html.bak; chown -R www-data:www-data /var/www/html; ```
+```cd /var/www/html; wget https://getgrav.org/download/skeletons/onepage-site/2.0.0 -O file.zip; unzip ./file.zip; rm ./file.zip; cd ./g*; mv ./{.,}* ..; cd ..; rm -rf ./grav*; mv ./index.nginx-debian.html ./index.nginx-debian.html.bak; chown -R user:user /var/www/html; ```
 
 ```cd ./we*; mv ./ng* /etc/nginx/sites-available/default```
 
