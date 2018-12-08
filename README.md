@@ -2,13 +2,13 @@
 Helps to prepare devserver
 
 on the server console 
-ifconfig 
+```ifconfig```
 to see your ip address, connect to that with putty
 get root rights
-sudo su -
+```sudo su -```
 
 update and reboot
-apt update && apt upgrade -y && reboot
+```apt update && apt upgrade -y && reboot```
 
 
 
